@@ -18,7 +18,7 @@ function getStreamFromBuffer(string) {
 
 module.exports = function(vars, opt) {
   opt = opt || {};
-  opt.verbose = opt.verbose || true;
+  opt.verbose = opt.verbose !== null ? opt.verbose : true;
 
   const stylVars = [];
 

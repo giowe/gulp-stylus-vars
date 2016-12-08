@@ -1,4 +1,7 @@
 {
+  "version": "1.0.1",
+  "name": "gulp-stylus-vars",
+  "main": "index.js",
   "author": {
     "email": "giovanni.bruno@soluzionifutura.it",
     "name": "Giovanni Bruno"
@@ -17,11 +20,8 @@
     "variables"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "name": "gulp-stylus-vars",
   "repository": {
     "type": "git",
     "url": "https://github.com/giowe/gulp-stylus-vars.git"
-  },
-  "version": "1.0.0"
+  }
 }
